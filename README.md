@@ -13,3 +13,42 @@ Tras cada folder se realizo un commit
 ![image](https://github.com/user-attachments/assets/fd3ffb9b-bbdc-418c-8465-ee97ef0431e7)
 Link azure: https://parcialt2back-ezf3hrb0bqeug0hx.mexicocentral-01.azurewebsites.net/
 Link consulta de payments hechos: https://parcialt2back-ezf3hrb0bqeug0hx.mexicocentral-01.azurewebsites.net/payments?userId=user123
+![image](https://github.com/user-attachments/assets/290ba9f4-21ed-4f4d-bc85-407fceed7f66)
+
+# Post realizados a la base de datos:
+http://localhost:8080/products
+{
+"name"; "Laptop",
+"unitPrice": 1000.0
+}
+--------------------
+{
+"name"; "Mouse",
+"unitPrice": 1000.0
+}
+--------------------
+{
+"name"; "Tv",
+"unitPrice": 3000.0
+}
+
+http://localhost:8080/payments
+
+{
+"userId": "user123",
+"date": "12-03-2025",
+"items":[
+{
+"productName":"Laptop",
+"unitPrice": 1000.0,
+"quantity": 1
+},
+{
+"productName":"Mouse",
+"unitPrice": 50.0,
+"quantity": 2
+}
+],
+"totalAmount":1100.0
+}
+
