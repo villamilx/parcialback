@@ -1,4 +1,7 @@
 # parcialback
+Nombre: David Santiago Villadiego Medicis
+Grupo: CVDS-2
+Link Back: https://parcialt2back-ezf3hrb0bqeug0hx.mexicocentral-01.azurewebsites.net/
 # Diagrama
 ![image](https://github.com/user-attachments/assets/78f5c59b-c15e-469b-8368-708fe61fdc6c)
 #Clases principales
