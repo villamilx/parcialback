@@ -21,12 +21,12 @@ http://localhost:8080/products
 "name"; "Laptop",
 "unitPrice": 1000.0
 }
---------------------
+
 {
 "name"; "Mouse",
 "unitPrice": 1000.0
 }
---------------------
+
 {
 "name"; "Tv",
 "unitPrice": 3000.0
