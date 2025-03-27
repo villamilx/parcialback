@@ -25,19 +25,19 @@ public class payment {
         this.id = id;
     }
 
-    public String getuserId(){
+    public String getUserId() {
         return userId;
     }
 
-    public void setuserId(String userId){
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
-    public String getDate(){
+    public String getDate() {
         return date;
     }
 
-    public void setDate(String date){
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -49,27 +49,27 @@ public class payment {
         this.items = items;
     }
 
-    public Double gettotalAmount(){
+    public Double getTotalAmount() {
         return totalAmount;
     }
 
-    public void settotalAmount(Double totalAmount){
+    public void setTotalAmount(Double totalAmount) {
         this.totalAmount = totalAmount;
     }
 
-    public String getstatus(){
+    public String getStatus() {
         return status;
     }
 
-    public void setstatus(){
+    public void setStatus(String status) {
         this.status = status;
     }
 
-    public String geterrorMessage(){
+    public String getErrorMessage() {
         return errorMessage;
     }
 
-    public void seterrorMessage(String errorMessage){
+    public void setErrorMessage(String errorMessage) {
         this.errorMessage = errorMessage;
     }
 }
